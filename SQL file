@@ -1,0 +1,18 @@
+# Creating a data base -
+CREATE DATABASE database1
+#Creating a Table 
+Create Table library(
+Title varchar(255),
+Author varchar(255),
+genre varchar(255)
+publisher varchar(255)
+);
+# Inserting Values 
+INSERT INTO library
+values("Fundamentals of Wavelets","Goswami, Jaideva","signal_processing","Wiley")
+values("Data Smart","Foreman, John","data_science","Wiley")
+values("God Created the Integers","Hawking, Stephen","mathematics,"Penguin")
+values("Orientalism","Said, Edward","history","Penguin")
+values("Integration of the Indian States","Menon, V P","history","Orient Blackswan")
+values("Drunkard's Walk","Mlodinow, Leonard","science","Penguin")
+values("Image Processing & Mathematical Morphology","Shih, Frank","signal_processing","CRC)
