@@ -1,0 +1,9 @@
+To delete or post data, one must run these commands in duplicate terminal
+
+
+
+1. For POST fucntion
+curl -i -H "Content-Type:application/json" -X POST -d info https:\\"ec2.................:5000\library"
+
+2. For DELETE function
+curl -X "DELETE" https:\\localhost:5000\Title Arman 
